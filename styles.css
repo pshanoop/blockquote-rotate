@@ -61,13 +61,13 @@ article{
   transform: translate(450px, 0px) scale(1, 1);
 }*/
 .move1{
-  animation: testimonial-one 15s ease-in-out infinite; /* forwards */
+  animation: testimonial-one 15s ease-in-out infinite;
 }
 .move2{
-  animation: testimonial-two 15s ease-in-out infinite; /* forwards */
+  animation: testimonial-two 15s ease-in-out infinite;
 }
 .move3{
-  animation: testimonial-three 15s ease-in-out infinite; /* forwards */
+  animation: testimonial-three 15s ease-in-out infinite;
 }
 
 
@@ -76,26 +76,26 @@ article{
     transform: translate(35px, 180px) scale(1,1);
   }
   40%, 60%{
-    color: transparent;
+    color: rgba(0, 0, 0, 0.03);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     transform: translate(0, 100px) scale(0.8, 0.8);
   }
   80%, 100%{
     color: transparent;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transform: translate(740px, 0) scale(0.6, 0.6);
+    transform: translate(250px, 0) scale(0.6, 0.6);
   }
 }
 @keyframes testimonial-two{
   0%, 10%{
-    color: transparent;
+    color: rgba(0,0,0,0.03);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transform: translate(600px, 0) scale(0.80, 0.80);
+    transform: translate(600px, 0) scale(0.9, 0.9);
   }
   40%, 60%{
     color: #000;
     text-shadow: none;
-    transform: translate(300px, 100px) scale(1, 1);
+    transform: translate(250px, 100px) scale(1, 1);
   }
   90%, 100%{
     color: transparent;
@@ -110,13 +110,13 @@ article{
     transform: translate(300px, -200px) scale(0.6, 0.6);
   }
   50%, 60%{
-    color: transparent;
+    color: rgba(0, 0, 0, 0.02);
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    transform: translate(450px, -200px) scale(0.6, 0.6);
+    transform: translate(440px, -160px) scale(0.8, 0.8);
   }
   90%, 100%{
     color: #000;
     text-shadow: none;
-    transform: translate(450px, 0px) scale(1, 1);
+    transform: translate(450px, -20px) scale(1, 1);
   }
 }
